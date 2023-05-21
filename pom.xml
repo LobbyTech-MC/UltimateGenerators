@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.rmc</groupId>
-    <artifactId>UltimateGenerators-RC27</artifactId>
+    <artifactId>UltimateGenerators</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -73,7 +73,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.16.5-R0.1-SNAPSHOT</version>
+            <version>1.19.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 <!--        <dependency>-->
@@ -95,7 +95,7 @@
         <dependency>
             <groupId>io.github.Slimefun</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>RC-30</version>
+            <version>RC-33</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

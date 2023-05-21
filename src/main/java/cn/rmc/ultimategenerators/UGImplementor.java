@@ -1,5 +1,11 @@
 package cn.rmc.ultimategenerators;
 
+import java.util.Arrays;
+
+import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
+import org.bukkit.inventory.ItemStack;
+
 import cn.rmc.ultimategenerators.lists.UGCategories;
 import cn.rmc.ultimategenerators.lists.UGItems;
 import cn.rmc.ultimategenerators.lists.UGRecipeType;
@@ -8,23 +14,15 @@ import cn.rmc.ultimategenerators.object.abstracts.BGenerator;
 import cn.rmc.ultimategenerators.object.machines.BiofuelRefinery;
 import cn.rmc.ultimategenerators.object.machines.EndlessGenerator;
 import cn.rmc.ultimategenerators.object.machines.OilRefinery;
-import cn.rmc.ultimategenerators.object.tasks.ReinforcedRainbowTicker;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun4.implementation.items.electric.AbstractEnergyProvider;
 import io.github.thebusybiscuit.slimefun4.implementation.items.electric.Capacitor;
 import io.github.thebusybiscuit.slimefun4.implementation.items.electric.generators.SolarGenerator;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineFuel;
-import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
-import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
-import org.bukkit.inventory.ItemStack;
-
-import java.util.Arrays;
 
 public class UGImplementor {
     private static final ItemStack MOTOR = SlimefunItems.ELECTRIC_MOTOR;

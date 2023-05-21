@@ -1,11 +1,12 @@
 package cn.rmc.ultimategenerators.object.tasks;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
-import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
-import org.apache.commons.lang.math.RandomUtils;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
+
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.libraries.commons.lang.math.RandomUtils;
+import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
+import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
 
 public class ReinforcedRainbowTicker {
     public static class Fast extends BlockTicker {

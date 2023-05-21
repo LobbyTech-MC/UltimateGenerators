@@ -1,15 +1,15 @@
 package cn.rmc.ultimategenerators.listeners;
 
-import cn.rmc.ultimategenerators.Utils;
-import cn.rmc.ultimategenerators.lists.UGItems;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.EnderCrystal;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerInteractAtEntityEvent;
-import org.bukkit.inventory.ItemStack;
+
+import cn.rmc.ultimategenerators.Utils;
+import cn.rmc.ultimategenerators.lists.UGItems;
+import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
 
 public class EnderCrystalEnhancerListener implements Listener {
 

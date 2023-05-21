@@ -15,7 +15,6 @@ public final class UltimateGenerators extends JavaPlugin implements SlimefunAddo
     private static Properties pp;
 
     @Override
-    @SuppressWarnings("CallToPrintStackTrace")
     public void onEnable() {
 
         plug = this;

@@ -1,5 +1,10 @@
 package cn.rmc.ultimategenerators;
 
+import java.nio.charset.StandardCharsets;
+import java.util.Base64;
+import java.util.List;
+import java.util.Random;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.inventory.ItemStack;
@@ -7,12 +12,6 @@ import org.bukkit.metadata.FixedMetadataValue;
 import org.bukkit.metadata.MetadataValue;
 import org.bukkit.metadata.Metadatable;
 import org.bukkit.plugin.Plugin;
-
-import java.io.UnsupportedEncodingException;
-import java.nio.charset.StandardCharsets;
-import java.util.Base64;
-import java.util.List;
-import java.util.Random;
 
 
 public class Utils {
@@ -27,7 +26,6 @@ public class Utils {
         }
     }
 
-    @SuppressWarnings("CallToPrintStackTrace")
     public static final String db64s(final String base64) {
         return new String(Base64.getDecoder().decode(base64), StandardCharsets.UTF_8);
     }
